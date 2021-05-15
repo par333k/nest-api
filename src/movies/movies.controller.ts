@@ -19,7 +19,7 @@ export class MoviesController {
 
   // Nest.js는 Express 위에서 돌아가기 때문에 Express의 req, res객체에도 접근이 가능하다.
   @Get() // 아래처럼
-  getAll(@Req() req, @Res() res): Movie[] {
+  getAll(/*@Req() req, @Res() res*/): Movie[] {
     // req나 res 를 직접 nestjs에서 컨트롤 하는건 좋은 방법이 아니다.
     // nest.js는 fastify와도 호환이 되기 때문에, express의 객체를 직접 쓰면 충돌이 날 수 있다.
     // fastify는 성능에 상당한 이점이 있다.

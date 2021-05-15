@@ -4,6 +4,6 @@ import { Controller, Get } from "@nestjs/common";
 export class AppController {
   @Get()
   home() {
-    return '환영 영화 api';
+    return 'Welcome movie api';
   }
 }

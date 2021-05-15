@@ -18,7 +18,7 @@ describe('MoviesService', () => {
     //   year: 2000,
     // });
 
-  });
+  }); 
 
   it('should be defined', () => {
     expect(service).toBeDefined();
